@@ -1,11 +1,11 @@
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-const FAQ = () => {
+const ShopAndCustomization = () => {
 
   return (
     <>
-     <div className="w-full flex flex-col">
+     <div className="w-full flex flex-col h-full">
        <Header/>
       
 
@@ -15,4 +15,4 @@ const FAQ = () => {
   )
 }
 
-export default FAQ
+export default ShopAndCustomization
