@@ -1,7 +1,7 @@
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-const Home = () => {
+const Partnerships = () => {
     return (
       <>  
         <div className="w-full flex flex-col items-center h-full">
@@ -106,4 +106,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Partnerships
