@@ -8,7 +8,7 @@ const FAQ = () => {
      <div className="w-full flex flex-col items-center">
        <Header/>
         <div className="w-3/4 flex justify-center">
-            <div className="w-1/4 bg-gray-300 gap-y-6 flex flex-col p-12">
+            <div className="w-1/4 bg-gray-200 gap-y-6 flex flex-col p-12">
                 <p className="font-bold text-3xl">FAQs</p>
                 <div className="flex gap-y-2 flex-col">
                     <p className="font-bold text-xl">Merchant</p>
