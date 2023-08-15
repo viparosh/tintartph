@@ -33,6 +33,9 @@ const Header = () => {
                     <Link href={"/faq"}>
                         <li className="hover:text-indigo-800">FAQ</li>
                     </Link>
+                    <Link href={"/mycart"}>
+                        <li className="hover:text-indigo-800">My Cart</li>
+                    </Link>
                 </ol>
             </div>
     </>
