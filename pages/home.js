@@ -19,7 +19,7 @@ const Home = () => {
               <button className="font-semibold bg-indigo-500 rounded-md px-6 py-3 text-white">BROWSE GALLERY</button>
             </Link>
           </div>
-          <div className="lg:w-1/2 w-full ">
+          <div className="lg:w-1/2 w-full ">  
             <img className="aspect-square object-cover h-full w-full" alt="image unavailable" src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t39.30808-6/334929512_221307023740928_3883504189965056999_n.jpg?_nc_cat=102&cb=99be929b-3346023f&ccb=1-7&_nc_sid=0bb214&_nc_eui2=AeFe3xR1re7BmIrRuOJ7lIjgwW-8ua6YhgnBb7y5rpiGCXBo_ARFkdIsBi8fQ2_BZq7r2L2DYTfS_HmnXDQcl3N2&_nc_ohc=CzjS1Cdg19cAX8tPjep&_nc_zt=23&_nc_ht=scontent.fmnl3-4.fna&_nc_e2o=c&oh=00_AfDblymIBs066s8D3kXOIbDbgDF_8gUy8lRu0rFPXMemCA&oe=64DE5901"/>
           </div>
         </div>
