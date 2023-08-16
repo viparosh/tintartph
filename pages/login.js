@@ -6,7 +6,7 @@ const Login = () => {
     <div className="w-full flex flex-col items-center h-full">
         <Header/>
         <div className="w-full py-12 flex justify-center items-center bg-[#f9f4fd]">
-            <div className="bg-white flex py-10 rounded-lg w-1/3">
+            <div className="bg-white flex py-10 rounded-lg lg:w-1/3 w-full">
                 <div className="gap-y-3 px-6 w-full flex flex-col items-center justify-center bg-white">
                     <p className="text-3xl mb-6 font-bold">Login</p>
                     <input className="rounded-md w-full border p-3" type="text" placeholder="EMAIL"/>
