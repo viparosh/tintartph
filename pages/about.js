@@ -7,6 +7,7 @@ const About = () => {
     <>
      <div className="w-full flex flex-col items-center h-full">
         <Header/>
+        
         {/*ABOUT CARD*/}
         <div className="w-3/4 flex flex-col">
             <div className="w-full flex">

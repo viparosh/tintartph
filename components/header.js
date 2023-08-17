@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import SignInOption from './modals/signInOption'
+
 const Header = () => {
 
   const [modal,setModal] = useState(false)
