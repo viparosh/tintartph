@@ -1,20 +1,16 @@
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Link from 'next/link'
+import { Layout } from '../components'
 
 const Template = () => {
 
   return (
-    <>
-     <div className="w-full flex flex-col h-full">
-       <Header/>
+    <Layout>
         <div className="w-full bg-pink-100 flex justify-center">
             <div className="w-3/4 bg-inherit">
               
             </div>
         </div>
-       <Footer/>            
-     </div>
-    </>
+    </Layout>
   )
 }
 

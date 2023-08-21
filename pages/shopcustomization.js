@@ -10,15 +10,15 @@ const ShopAndCustomization = () => {
               <p className="font-bold text-4xl">Filters</p>
               <div className="flex text-xl gap-y-2 font-semibold flex-col">
                 <div className="flex items-center gap-x-3">
-                  <input type="checkbox" value="" class="w-4 h-4 border-black border"/>
+                  <input type="checkbox" value="" className="w-4 h-4 border-black border"/>
                   <p>TOFU Ink</p>
                 </div>
                 <div className="flex items-center gap-x-3">
-                  <input type="checkbox" value="" class="w-4 h-4 border-black border"/>
+                  <input type="checkbox" value="" className="w-4 h-4 border-black border"/>
                   <p>Edcel Cabrera</p>
                 </div>
                 <div className="flex items-center gap-x-3">
-                  <input type="checkbox" value="" class="w-4 h-4 border-black border"/>
+                  <input type="checkbox" value="" className="w-4 h-4 border-black border"/>
                   <p>Ronilo Hallera</p>
                 </div>
               </div>
@@ -28,7 +28,7 @@ const ShopAndCustomization = () => {
                 <img className="w-full object-cover h-1/2" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcStQEiuupmL0aL-LKc64mPf6RTJ7qeRu6j3MlGsOvC7wzJ36RD4"/>
                 <div className="w-full h-1/2 px-6 gap-y-3 pt-3 pb-4 flex flex-col justify-between">
                   <p className="font-bold text-xl">NAS Daily 1</p>
-                  <p className="text-justify font-semibold text-sm">Faces, emotions intertwine, sharing stories through Nas Daily's captivating art.</p>
+                  <p className="text-justify font-semibold text-sm">Sharing stories through Nas Daily's captivating art.</p>
                   <div className="flex gap-x-3 justify-between">
                     <button className="text-white font-semibold bg-[#8c43d1] py-2 w-4/5 text-xs rounded-md">VIEW PRODUCT</button>
                     <button className="bg-gray-200 px-2 font-semibold text-black rounded-md text-xs">ADD</button>

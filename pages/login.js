@@ -1,9 +1,9 @@
 import Link from 'next/link'
+import { Layout } from '../components'
 
 const Login = () => {
   return (
-    <div className="w-full flex flex-col items-center h-full">
-        <Header/>
+    <Layout>
         <div className="w-full py-12 flex justify-center items-center bg-[#f9f4fd]">
             <div className="bg-white flex py-10 rounded-lg lg:w-1/3 w-full">
                 <div className="gap-y-3 px-6 w-full flex flex-col items-center justify-center bg-white">
@@ -21,8 +21,7 @@ const Login = () => {
                 </div>
             </div>
         </div>
-        <Footer/>
-    </div>
+    </Layout>
   )
 }
 

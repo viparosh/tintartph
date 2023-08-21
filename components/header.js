@@ -24,7 +24,7 @@ const Header = () => {
       <div className="flex items-center justify-between w-full px-20 py-10 bg-[#8d78c1] h-10 sticky top-0 z-10">
         <p className="text-white font-bold text-2xl">TintArt</p>
         <ol className="font-semibold lg:flex gap-x-10 lg:flex-row hidden text-lg flex-row text-white cursor-default">
-            <Link href={"/home"}>
+            <Link href={"/"}>
                 <li className="hover:text-indigo-800">Home</li>
             </Link>
             <Link href={"/partnerships"}>

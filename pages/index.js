@@ -17,7 +17,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="lg:w-1/2 w-full ">  
-          <img className="aspect-square object-cover h-full w-full" alt="image unavailable" src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t39.30808-6/334929512_221307023740928_3883504189965056999_n.jpg?_nc_cat=102&cb=99be929b-3346023f&ccb=1-7&_nc_sid=0bb214&_nc_eui2=AeFe3xR1re7BmIrRuOJ7lIjgwW-8ua6YhgnBb7y5rpiGCXBo_ARFkdIsBi8fQ2_BZq7r2L2DYTfS_HmnXDQcl3N2&_nc_ohc=CzjS1Cdg19cAX8tPjep&_nc_zt=23&_nc_ht=scontent.fmnl3-4.fna&_nc_e2o=c&oh=00_AfDblymIBs066s8D3kXOIbDbgDF_8gUy8lRu0rFPXMemCA&oe=64DE5901"/>
+          <img className="aspect-square object-cover h-full w-full" alt="image unavailable" src="https://firebasestorage.googleapis.com/v0/b/test-image-72fde.appspot.com/o/A1.jpg?alt=media&token=9fc8d6a5-8a01-40b9-8d8b-c8c3effbb3b4"/>
         </div>
       </div>
       
@@ -73,7 +73,7 @@ const Home = () => {
         <div className="flex lg:flex-row flex-col  items-center justify-center gap-x-16 lg:items-end lg:justify-center">
         <div className="flex flex-col items-center">
           <p className="text-4xl font-bold mb-6">How It Works</p>
-          <img className="h-[32rem]" alt="image unavailable" src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t39.30808-6/330356254_220002910526545_4178440985836823348_n.jpg?_nc_cat=109&cb=99be929b-3346023f&ccb=1-7&_nc_sid=0bb214&_nc_eui2=AeGWjneOR01PfjsJkXxO_COfwLH8bngd5efAsfxueB3l51YiNg4c_WshFeNQemc5sd3RCS0Wx1kHCF6SPXkg1Sv8&_nc_ohc=2HsSvLlu5GcAX9FhLqB&_nc_zt=23&_nc_ht=scontent.fmnl3-2.fna&_nc_e2o=c&oh=00_AfD3kJ0cki8gtFuxQeVBtUJV-IF9xLz7In49eN6-MHgLHA&oe=64DE74D5"/>
+          <img className="h-[32rem]" alt="image unavailable" src="https://firebasestorage.googleapis.com/v0/b/test-image-72fde.appspot.com/o/C3.jpg?alt=media&token=64294eca-9c28-4dc2-a693-8633a8833ece"/>
         </div>
         <ul className="lg:w-2/5 w-full lg:mt-0 mt-12">
           <li className="font-semibold">1.) Choose an Artist:</li>
