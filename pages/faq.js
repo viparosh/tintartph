@@ -1,12 +1,9 @@
-import Header from '../components/header'
-import Footer from '../components/footer'
+import { Layout } from '../components'
 
 const FAQ = () => {
 
   return (
-    <>
-     <div className="w-full flex flex-col items-center">
-       <Header/>
+    <Layout>
         <div className="w-3/4 flex justify-center">
             <div className="w-1/4 bg-gray-200 gap-y-6 flex flex-col p-12">
                 <p className="font-bold text-3xl">FAQs</p>
@@ -33,10 +30,7 @@ const FAQ = () => {
                 <p>How much is the shipping fee ?</p>
             </div>    
         </div>
-
-       <Footer/>            
-     </div>
-    </>
+    </Layout>
   )
 }
 

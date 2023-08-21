@@ -1,14 +1,9 @@
-import Header from '../components/header'
-import Footer from '../components/footer'
+import { Layout } from '../components'
 
 const About = () => {
 
   return (
-    <>
-     <div className="w-full flex flex-col items-center h-full">
-        <Header/>
-        
-        {/*ABOUT CARD*/}
+    <Layout>
         <div className="w-3/4 flex flex-col">
             <div className="w-full flex">
                 <img alt="n/a" className="w-1/3 object-cover" src="https://scontent.fmnl3-3.fna.fbcdn.net/v/t39.30808-6/274303002_2050930431737526_3298380760775580302_n.jpg?_nc_cat=111&cb=99be929b-3346023f&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeH0EQmxYXz95pvn_XuHMNMVxGv6QF7YJjrEa_pAXtgmOgIQ_-6jWpR6z3GWCbB41Y0ejh1cegQPydUR0evhQNS9&_nc_ohc=jdhmQIBnLEUAX8YL0EC&_nc_zt=23&_nc_ht=scontent.fmnl3-3.fna&_nc_e2o=c&oh=00_AfBQSJAZPGEhTsK8q7_Uty5VjFKrIu5oPIHzBQRcMNLZHA&oe=64DEB576"/>
@@ -45,10 +40,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-
-       <Footer/>            
-     </div>
-    </>
+    </Layout>
   )
 }
 

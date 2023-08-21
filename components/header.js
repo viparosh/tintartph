@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import SignInOption from './modals/signInOption'
+import { HiOutlineShoppingBag } from 'react-icons/hi'
+import { FaUserAlt } from 'react-icons/fa'
 
 const Header = () => {
 
@@ -19,9 +21,9 @@ const Header = () => {
       
       {(modal) ? <SignInOption setModal={setModal}/> : <></>}
 
-      <div className="justify-between items-center w-full p-10 flex bg-[#8d78c1] h-10">
-        <p className="text-white">TintArt</p>
-        <ol className="lg:flex gap-x-10 lg:flex-row hidden text-lg flex-row text-white cursor-pointer">
+      <div className="flex items-center justify-between w-full px-20 py-10 bg-[#8d78c1] h-10 sticky top-0 z-10">
+        <p className="text-white font-bold text-2xl">TintArt</p>
+        <ol className="font-semibold lg:flex gap-x-10 lg:flex-row hidden text-lg flex-row text-white cursor-default">
             <Link href={"/home"}>
                 <li className="hover:text-indigo-800">Home</li>
             </Link>
@@ -40,11 +42,15 @@ const Header = () => {
             <Link href={"/faq"}>
                 <li className="hover:text-indigo-800">FAQ</li>
             </Link>
-            <Link href={"/mycart"}>
-                <li className="hover:text-indigo-800">My Cart</li>
-            </Link>
         </ol>
-        <button onClick={() =>  setModal(true)} className="text-white">Sign In</button>
+
+        <div className="flex gap-x-4 items-center">  
+          <Link href={"/mycart"}>
+              <button className="hover:text-indigo-800 text-white text-2xl"><HiOutlineShoppingBag/></button>
+          </Link>
+          <button onClick={() =>  setModal(true)} className="hover:text-indigo-800 text-white text-xl"><FaUserAlt/></button>
+        </div>
+ 
       </div>
     </>
   )

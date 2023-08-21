@@ -1,5 +1,4 @@
-import Header from '../components/header'
-import Footer from '../components/footer'
+import { Layout } from '../components'
 import CommissionMe from '../components/modals/commissionme'
 import React, { useState } from 'react'
 
@@ -8,10 +7,7 @@ const Partnerships = () => {
     const [modal,setModal] = useState(false)
     
     return (
-      <>  
-        <div className="w-full flex flex-col items-center h-full">
-            <Header/>
-
+        <Layout>
             {/*FIRST CARD*/}
             {(modal) ? <CommissionMe setModal={setModal}/> : <></>}
             <div className="mt-8 px-12 lg:flex-row flex-col justify-between bg-[#bdbdbd] lg:items-start items-center flex py-10 rounded-lg lg:w-3/4 w-full">
@@ -104,10 +100,7 @@ const Partnerships = () => {
                     </div>
                 </div>     
             </div>
-
-            <Footer/>
-        </div>
-      </>
+        </Layout>
     )
 }
 

@@ -1,11 +1,8 @@
-import Header from '../components/header'
-import Footer from '../components/footer'
+import { Layout } from '../components'
 
 const MyCart = () => {
   return (
-    <>
-      <div className="w-full flex flex-col items-center h-full">
-        <Header/>
+    <Layout>
         {/* Content */}
         <div className="bg-gray-100 px-6 lg:w-3/4 w-full lg:flex-row flex-col flex py-12 gap-x-6 ">
             <div className="lg:w-2/3 w-full flex flex-col gap-y-4">
@@ -148,9 +145,7 @@ const MyCart = () => {
                <button className="bg-violet-500 py-2 font-bold tracking-wide text-white rounded-lg">PROCEED TO CHECKOUT</button>
             </div>
         </div>
-        <Footer/>
-      </div>
-    </>
+    </Layout>
   )
 }
 
