@@ -55,7 +55,7 @@ const Navigator = () => {
 
   return (
     <div className="w-1/5 bg-white h-full">
-        <div className="px-5 py-6 flex justify-between items-center w-full bg-[#8d78c1]">
+        <div className="px-5 h-20 py-6 flex justify-between items-center w-full bg-[#8d78c1]">
             <div className="flex w-full items-center justify-between">
             <p className="text-2xl font-bold">TintArt</p>
             <p className="text-white rounded-md text-xs px-3 bg-[#4a348d] py-1 font-semibold">ADMIN</p> 
