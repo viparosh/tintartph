@@ -11,27 +11,27 @@ const Navigator = () => {
     {
       icon: <GrDashboard />,
       name: 'Dashboard',
-      link: '/dashboard',
+      link: '/admin/dashboard',
     },
     {
       icon: <MdManageAccounts />,
       name: 'Accounts',
-      link: '/accounts',
+      link: '/admin/accounts',
     },
     {
       icon: <BiBriefcaseAlt2 />,
       name: 'Products',
-      link: '/products',
+      link: '/admin/products',
     },
     {
       icon: <LuClipboardList />,
       name: 'Orders',
-      link: '/orders',
+      link: '/admin/orders',
     },
     {
       icon: <VscFeedback />,
       name: 'Customer Feedbacks',
-      link: '/feedbacks',
+      link: '/admin/feedbacks',
     }
   ]
 
